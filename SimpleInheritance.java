@@ -1,4 +1,4 @@
-class student {
+class student {    // Super Class 
     int roll, marks;
     String name;
 
@@ -7,7 +7,7 @@ class student {
     }
 }
 
-class SimpleInheritance extends student {
+class SimpleInheritance extends student {  // Sub Class
     void disp() {
         roll = 10;
         marks = 89;
@@ -20,3 +20,4 @@ class SimpleInheritance extends student {
         r.disp();
     }
 }
+ /*Simple Inheritance hava only one super class  a sub class  */
