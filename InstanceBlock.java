@@ -28,4 +28,4 @@ public class InstanceBlock {
     }
 }
 
-// Intance variable execute first .
+// Intance Block execute first .

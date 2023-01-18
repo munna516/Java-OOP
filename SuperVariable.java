@@ -1,5 +1,6 @@
 class A {
     int a = 10;
+    int b = 20;
 }
 
 class B extends A {
@@ -19,8 +20,8 @@ public class SuperVariable {
 }
 
 /*
-
+ * 
  * Super keyword access the super classes variable if super classes variable
  * & the sub classes variable are same.
- 
+ * 
  */
