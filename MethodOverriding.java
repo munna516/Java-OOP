@@ -1,4 +1,4 @@
-class A {
+class A { 
     void show() {
         System.out.println("This is Super Class Method");
     }

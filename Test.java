@@ -9,6 +9,9 @@ class Demo {
     void add(int a, int b) {
         System.out.println(a + b);
     }
+    void sub(){
+        System.out.println("This is Sub Method");
+    }
 }
 
 public class Test {
