@@ -23,7 +23,7 @@ class Lion extends Animal {
     }
 }
 
-public class AbstruceClass {
+public class AbstractClass {
     public static void main(String[] args) {
         Dog r = new Dog();
         r.sound();
