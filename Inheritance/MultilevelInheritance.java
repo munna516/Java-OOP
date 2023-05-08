@@ -4,9 +4,9 @@ public class MultilevelInheritance {
     int salary;
     String name;
 
-    MultilevelInheritance() {
-        salary = 0;
-        name = null;
+    MultilevelInheritance(int s, String n) {
+        salary = s;
+        name = n;
     }
 
 }
@@ -15,7 +15,8 @@ class B extends MultilevelInheritance {
     int id;
     String post;
 
-    B() {
+    B(int i, String p, String n, int s) {
+        super(s, n);
         id = 0;
         post = null;
     }
@@ -23,13 +24,11 @@ class B extends MultilevelInheritance {
 }
 
 class C extends B {
-    C(int i, int s, String n, String p)
+    int x;
 
-    {
-        id = i;
-        salary = s;
-        name = n;
-        post = p;
+    C(int i, String p, String n, int s, int x) {
+        super(i, p, n, s);
+        this.x = x;
 
     }
 
